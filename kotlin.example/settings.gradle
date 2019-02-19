@@ -1,0 +1,4 @@
+rootProject.name = 'kotlin.example'
+includeFlat 'DSAlgo'
+findProject(':DSAlgo')?.name = 'com.ds.algo'
+
