@@ -46,6 +46,8 @@ public class LinkedList {
 4. By default Linked List holds the address of HEAD element.
 5. Inserting a Node at HEAD: Point the new node next pointer to the first item, then point HEAD to the new Item. Takes constant time or O(1)
 6. Deleting a Node from Head: Point the had to the next pointer, current head will be garbage collected . Takes constant time or O(1)
-7.
+7. Searching an Element: Iterate through all the elements till find the item wants to search, if found return else continue till next node becomes
+null. Time complexity is Linear, O(n)
+8.
 
  */

@@ -1,6 +1,7 @@
 package com.basic;
 
-import java.util.Scanner;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class _2_PrintOrNot {
 
@@ -16,6 +17,5 @@ public class _2_PrintOrNot {
             }
         }
 
-        System.out.println(prime ? "Prime" : "Not Prime");
     }
 }
